@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,500&family=Otomanopee+One&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    color: rgb(34, 193, 195);
+    background-color: #fafd2d;
+    margin: 0;
+    font-size: 2em;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.ergebnisFläche {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0 4vw .5vh 0;
+    height: 25vh;
+    background-color: rgb(85, 85, 85);
+    color: #fff;
+    font-size: 3em;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+table {
+    width: 100vw;
+    height: 70vh;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 800;
+    color: #fff;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: rgb(55, 55, 55);
+}
+
+td {
+    width: 25vw;
+    background-color: rgb(65, 65, 65);
+}
+
+td:hover {
+    background-color: #ed84cb;
+    cursor: pointer;
+}
+
+#result {
+    background-color: rgb(247, 137, 53);
+}
+
+#result:hover {
+    background-color: rgb(184, 64, 0);
+}
+
+.eigenart {
+    background-color: #35daf7;
+}
+
+.eigenart:hover {
+    background-color: rgb(13, 118, 147);
+}
